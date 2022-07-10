@@ -66,7 +66,8 @@ RUN apk add  xf86-video-amdgpu linux-firmware-amdgpu --no-cache --update-cache \
 
 
 
-FROM plexinc/pms-docker
+FROM spritsail/plex-media-server
+
 
 ARG OUTPUT
 
